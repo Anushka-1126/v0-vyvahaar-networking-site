@@ -51,7 +51,7 @@ export function MainLayout({ children }: MainLayoutProps) {
   useEffect(() => {
     setMounted(true)
     // Load user data
-    const authStatus = localStorage.getItem("vyvahaar_auth")
+    const authStatus = localStorage.getItem("vyavahaar_auth")
     if (authStatus) {
       const userData = JSON.parse(authStatus)
       setUser(userData)

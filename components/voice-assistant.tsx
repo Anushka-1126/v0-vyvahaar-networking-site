@@ -22,7 +22,7 @@ export function VoiceAssistant() {
 
   useEffect(() => {
     // Load user data
-    const authStatus = localStorage.getItem("vyvahaar_auth")
+    const authStatus = localStorage.getItem("vyavahaar_auth")
     if (authStatus) {
       setUser(JSON.parse(authStatus))
     }
@@ -73,12 +73,12 @@ export function VoiceAssistant() {
   // Greet user on first load
   useEffect(() => {
     if (user && hasPermissions) {
-      const hasGreeted = sessionStorage.getItem("vyvahaar_greeted")
+      const hasGreeted = sessionStorage.getItem("vyavahaar_greeted")
       if (!hasGreeted) {
         setTimeout(() => {
           const greeting = getGreeting()
           speak(greeting)
-          sessionStorage.setItem("vyvahaar_greeted", "true")
+          sessionStorage.setItem("vyavahaar_greeted", "true")
         }, 2000)
       }
     }

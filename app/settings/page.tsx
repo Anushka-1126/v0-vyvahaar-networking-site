@@ -52,22 +52,22 @@ export default function SettingsPage() {
   useEffect(() => {
     setMounted(true)
     // Load user data
-    const authStatus = localStorage.getItem("vyvahaar_auth")
+    const authStatus = localStorage.getItem("vyavahaar_auth")
     if (authStatus) {
       setUser(JSON.parse(authStatus))
     }
 
     // Load settings from localStorage
-    const savedSettings = localStorage.getItem("vyvahaar_settings")
+    const savedSettings = localStorage.getItem("vyavahaar_settings")
     if (savedSettings) {
       setSettings(JSON.parse(savedSettings))
     }
   }, [])
 
   const handleLogout = () => {
-    localStorage.removeItem("vyvahaar_auth")
-    localStorage.removeItem("vyvahaar_settings")
-    localStorage.removeItem("vyvahaar_subscription_popup_seen")
+    localStorage.removeItem("vyavahaar_auth")
+    localStorage.removeItem("vyavahaar_settings")
+    localStorage.removeItem("vyavahaar_subscription_popup_seen")
     toast({
       title: "Logged Out",
       description: "You have been successfully logged out.",
@@ -76,7 +76,7 @@ export default function SettingsPage() {
   }
 
   const saveSettings = () => {
-    localStorage.setItem("vyvahaar_settings", JSON.stringify(settings))
+    localStorage.setItem("vyavahaar_settings", JSON.stringify(settings))
     toast({
       title: "Settings Saved",
       description: "Your preferences have been updated successfully.",

@@ -116,7 +116,7 @@ export default function SignUpPage() {
       })
 
       // Store profile data for later use
-      localStorage.setItem("vyvahaar_user_profile", JSON.stringify(profileData))
+      localStorage.setItem("vyavahaar_user_profile", JSON.stringify(profileData))
 
       const userData = {
         name: `${profileData.firstName} ${profileData.lastName}`,
@@ -126,7 +126,7 @@ export default function SignUpPage() {
         role: role,
         ...profileData,
       }
-      localStorage.setItem("vyvahaar_auth", JSON.stringify(userData))
+      localStorage.setItem("vyavahaar_auth", JSON.stringify(userData))
 
       router.push(role === "admin" ? "/admin" : "/")
     }, 1000)

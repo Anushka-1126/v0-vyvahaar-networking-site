@@ -185,7 +185,7 @@ export default function MessagesPage() {
   }, [searchParams])
 
   useEffect(() => {
-    const savedMessages = localStorage.getItem("vyvahaar_messages")
+    const savedMessages = localStorage.getItem("vyavahaar_messages")
     if (savedMessages) {
       const parsedMessages = JSON.parse(savedMessages)
       if (parsedMessages.event_notifications) {

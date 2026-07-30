@@ -31,18 +31,18 @@ export default function HomePage() {
 
   useEffect(() => {
     // Load user data
-    const authStatus = localStorage.getItem("vyvahaar_auth")
+    const authStatus = localStorage.getItem("vyavahaar_auth")
     if (authStatus) {
       const userData = JSON.parse(authStatus)
       setUser(userData)
 
       // Show subscription popup for users after 2 seconds
       if (userData.role === "user") {
-        const hasSeenPopup = localStorage.getItem("vyvahaar_subscription_popup_seen")
+        const hasSeenPopup = localStorage.getItem("vyavahaar_subscription_popup_seen")
         if (!hasSeenPopup) {
           setTimeout(() => {
             setShowSubscriptionPopup(true)
-            localStorage.setItem("vyvahaar_subscription_popup_seen", "true")
+            localStorage.setItem("vyavahaar_subscription_popup_seen", "true")
           }, 2000)
         }
       }

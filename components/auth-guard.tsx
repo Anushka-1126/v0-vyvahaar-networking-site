@@ -19,7 +19,7 @@ export function AuthGuard({ children }: AuthGuardProps) {
 
   useEffect(() => {
     const checkAuth = () => {
-      const authStatus = localStorage.getItem("vyvahaar_auth")
+      const authStatus = localStorage.getItem("vyavahaar_auth")
 
       if (!authStatus && !publicRoutes.includes(pathname)) {
         router.push("/auth/login")

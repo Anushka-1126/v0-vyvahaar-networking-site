@@ -196,7 +196,7 @@ export default function SupportPage() {
                     <Mail className="w-5 h-5 text-orange-600" />
                     <div>
                       <p className="font-medium">Email Support</p>
-                      <p className="text-sm text-gray-600 dark:text-gray-300">support@vyvahaar.com</p>
+                      <p className="text-sm text-gray-600 dark:text-gray-300">support@vyavahaar.com</p>
                       <p className="text-xs text-gray-500">Response within 24 hours</p>
                     </div>
                   </div>

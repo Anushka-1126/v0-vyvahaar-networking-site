@@ -206,7 +206,7 @@ export const translations = {
       "ਵਿਵਹਾਰ ਭਾਰਤ ਦਾ ਪਹਿਲਾ ਨੈੱਟਵਰਕਿੰਗ ਪਲੇਟਫਾਰਮ ਹੈ ਜੋ ਵਿਸ਼ੇਸ਼ ਤੌਰ 'ਤੇ ਸੀਨੀਅਰ ਸਿਟੀਜ਼ਨਾਂ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤਾ ਗਿਆ ਹੈ। ਅਸੀਂ ਆਪਣੇ ਬਜ਼ੁਰਗਾਂ ਨੂੰ ਇਕੱਲਤਾ ਦੀ ਬਜਾਏ ਖੁਸ਼ੀ ਅਤੇ ਸਾਥ ਨਾਲ ਆਪਣੇ ਸੁਨਹਿਰੀ ਸਾਲ ਜੀਣ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਾਂ।",
     joinToday: "ਅੱਜ ਹੀ ਵਿਵਹਾਰ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
     learnMore: "ਹੋਰ ਜਾਣੋ",
-    featuresTitle: "ਤੁਹਾਡੇ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤੀਆਂ ਸੁਵਿਧਾਵਾਂ",
+    featuresTitle: "ਤੁਹਾਡੇ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤੀਆਂ ਸੁਵਿਧਾ��ਾਂ",
     connectPeers: "ਸਾਥੀਆਂ ਨਾਲ ਜੁੜੋ",
     connectPeersDesc: "ਆਪਣੇ ਖੇਤਰ ਵਿੱਚ ਸਮਾਨ ਸੋਚ ਵਾਲੇ ਸੀਨੀਅਰ ਸਿਟੀਜ਼ਨਾਂ ਨੂੰ ਲੱਭੋ ਅਤੇ ਉਨ੍ਹਾਂ ਨਾਲ ਜੁੜੋ",
     videoVoice: "ਵੀਡੀਓ ਅਤੇ ਆਵਾਜ਼ ਕਾਲਾਂ",
@@ -255,7 +255,7 @@ export function useTranslation() {
   const [currentLanguage, setCurrentLanguage] = useState("en")
 
   useEffect(() => {
-    const savedLanguage = localStorage.getItem("vyvahaar_language") || "en"
+    const savedLanguage = localStorage.getItem("vyavahaar_language") || "en"
     setCurrentLanguage(savedLanguage)
 
     const handleLanguageChange = (event: CustomEvent) => {

@@ -17,7 +17,7 @@ export function LanguageSelector() {
 
   const handleLanguageChange = (language: (typeof languages)[0]) => {
     setCurrentLanguage(language)
-    localStorage.setItem("vyvahaar_language", language.code)
+    localStorage.setItem("vyavahaar_language", language.code)
     // Here you would typically trigger a language change in your i18n system
   }
 

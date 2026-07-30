@@ -22,7 +22,7 @@ export default function EventsPage() {
   const { t } = useTranslation()
 
   useEffect(() => {
-    const authStatus = localStorage.getItem("vyvahaar_auth")
+    const authStatus = localStorage.getItem("vyavahaar_auth")
     if (authStatus) {
       const userData = JSON.parse(authStatus)
       setUser(userData)
@@ -124,10 +124,10 @@ Thank you for joining! We look forward to seeing you at the event.`,
           type: "event_confirmation",
         }
 
-        const existingMessages = JSON.parse(localStorage.getItem("vyvahaar_messages") || "{}")
+        const existingMessages = JSON.parse(localStorage.getItem("vyavahaar_messages") || "{}")
         existingMessages["event_notifications"] = existingMessages["event_notifications"] || []
         existingMessages["event_notifications"].push(eventMessage)
-        localStorage.setItem("vyvahaar_messages", JSON.stringify(existingMessages))
+        localStorage.setItem("vyavahaar_messages", JSON.stringify(existingMessages))
       }
 
       toast({

@@ -35,8 +35,8 @@ export default function ProfilePage() {
 
   useEffect(() => {
     // Load user data from localStorage
-    const authStatus = localStorage.getItem("vyvahaar_auth")
-    const profileData = localStorage.getItem("vyvahaar_user_profile")
+    const authStatus = localStorage.getItem("vyavahaar_auth")
+    const profileData = localStorage.getItem("vyavahaar_user_profile")
 
     if (authStatus) {
       const userData = JSON.parse(authStatus)
@@ -72,7 +72,7 @@ export default function ProfilePage() {
     setIsEditing(false)
 
     // Update localStorage with new profile data
-    const authStatus = localStorage.getItem("vyvahaar_auth")
+    const authStatus = localStorage.getItem("vyavahaar_auth")
     if (authStatus) {
       const userData = JSON.parse(authStatus)
       const updatedUserData = {
@@ -84,7 +84,7 @@ export default function ProfilePage() {
           .map((n) => n[0])
           .join(""),
       }
-      localStorage.setItem("vyvahaar_auth", JSON.stringify(updatedUserData))
+      localStorage.setItem("vyavahaar_auth", JSON.stringify(updatedUserData))
     }
 
     // Save profile data
@@ -97,7 +97,7 @@ export default function ProfilePage() {
       interests: profile.interests,
       email: profile.email,
     }
-    localStorage.setItem("vyvahaar_user_profile", JSON.stringify(profileData))
+    localStorage.setItem("vyavahaar_user_profile", JSON.stringify(profileData))
 
     toast({
       title: "Profile Updated",

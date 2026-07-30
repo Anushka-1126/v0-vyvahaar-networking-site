@@ -257,7 +257,7 @@ export default function LegalPage() {
 
                     <h3>15. Contact Information</h3>
                     <p>
-                      For questions about these terms, please contact us at legal@vyvahaar.com or through the contact
+                      For questions about these terms, please contact us at legal@vyavahaar.com or through the contact
                       information provided in the Legal Contact section.
                     </p>
                   </div>
@@ -286,7 +286,7 @@ export default function LegalPage() {
                           <Mail className="w-5 h-5 text-orange-600" />
                           <div>
                             <p className="font-medium">Email</p>
-                            <p className="text-gray-600 dark:text-gray-300">legal@vyvahaar.com</p>
+                            <p className="text-gray-600 dark:text-gray-300">legal@vyavahaar.com</p>
                           </div>
                         </div>
                         <div className="flex items-center gap-3">
@@ -306,7 +306,7 @@ export default function LegalPage() {
                           <Mail className="w-5 h-5 text-orange-600" />
                           <div>
                             <p className="font-medium">Email</p>
-                            <p className="text-gray-600 dark:text-gray-300">privacy@vyvahaar.com</p>
+                            <p className="text-gray-600 dark:text-gray-300">privacy@vyavahaar.com</p>
                           </div>
                         </div>
                         <div className="flex items-center gap-3">
@@ -364,10 +364,10 @@ export default function LegalPage() {
                         <strong>GST Number:</strong> 06AABCV1234F1Z5
                       </p>
                       <p>
-                        <strong>Data Protection Officer:</strong> Ms. Priya Sharma (dpo@vyvahaar.com)
+                        <strong>Data Protection Officer:</strong> Ms. Priya Sharma (dpo@vyavahaar.com)
                       </p>
                       <p>
-                        <strong>Compliance Officer:</strong> Mr. Amit Kumar (compliance@vyvahaar.com)
+                        <strong>Compliance Officer:</strong> Mr. Amit Kumar (compliance@vyavahaar.com)
                       </p>
                     </div>
                   </div>
@@ -375,7 +375,7 @@ export default function LegalPage() {
                   <div className="bg-orange-50 dark:bg-orange-950/20 p-4 rounded-lg">
                     <h4 className="font-semibold text-orange-800 dark:text-orange-200 mb-2">Important Notice</h4>
                     <p className="text-sm text-orange-700 dark:text-orange-300">
-                      For urgent legal matters or data breaches, please contact us immediately at legal@vyvahaar.com
+                      For urgent legal matters or data breaches, please contact us immediately at legal@vyavahaar.com
                       with "URGENT" in the subject line. We aim to respond to all legal inquiries within 48 hours during
                       business days.
                     </p>

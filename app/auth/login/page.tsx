@@ -78,7 +78,7 @@ export default function LoginPage() {
       })
 
       // Store auth data with actual user name from signup
-      const existingUserData = localStorage.getItem("vyvahaar_user_profile")
+      const existingUserData = localStorage.getItem("vyavahaar_user_profile")
       let userName = role === "admin" ? "Admin User" : "User"
 
       if (existingUserData) {
@@ -96,7 +96,7 @@ export default function LoginPage() {
         phone: phoneNumber,
         role: role,
       }
-      localStorage.setItem("vyvahaar_auth", JSON.stringify(userData))
+      localStorage.setItem("vyavahaar_auth", JSON.stringify(userData))
 
       // Redirect based on role
       router.push(role === "admin" ? "/admin" : "/")
