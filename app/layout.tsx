@@ -9,7 +9,7 @@ import { AuthGuard } from "@/components/auth-guard"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Vyvahaar - Connecting Senior Citizens",
+  title: "Vyavahaar - Connecting Senior Citizens",
   description:
     "A networking platform for senior citizens to connect, share experiences, and build meaningful relationships",
     generator: 'v0.app'

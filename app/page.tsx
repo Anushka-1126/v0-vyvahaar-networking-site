@@ -100,8 +100,8 @@ export default function HomePage() {
             <div className="flex flex-col lg:flex-row items-center gap-12">
               <div className="flex-1 text-left fade-in">
                 <div className="flex items-center gap-3 mb-6">
-                  <Image src="/logo.png" alt="Vyvahaar Logo" width={60} height={60} className="rounded-lg" />
-                  <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 dark:text-white">Vyvahaar</h1>
+                  <Image src="/logo.png" alt="Vyavahaar Logo" width={60} height={60} className="rounded-lg" />
+                  <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 dark:text-white">Vyavahaar</h1>
                 </div>
                 <h2 className="text-2xl lg:text-3xl font-semibold text-gray-800 dark:text-gray-200 mb-6">
                   {t("welcomeTitle")}
@@ -233,7 +233,7 @@ export default function HomePage() {
         <section className="py-16 px-6 bg-white dark:bg-gray-900">
           <div className="max-w-6xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-12 slide-in">
-              How Vyvahaar Makes an Impact
+              How Vyavahaar Makes an Impact
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="border-orange-200 dark:border-orange-800 hover:shadow-lg transition-all duration-300">

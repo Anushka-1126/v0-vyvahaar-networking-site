@@ -176,7 +176,7 @@ Thank you for joining! We look forward to seeing you at the event.`,
               <CardContent className="p-6">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-4">
                   <div>
-                    <h2 className="text-2xl font-bold mb-2">Vyvahaar Premium Events</h2>
+                    <h2 className="text-2xl font-bold mb-2">Vyavahaar Premium Events</h2>
                     <p className="text-orange-100">
                       Subscribe for just ₹99/month to attend all premium events and activities
                     </p>

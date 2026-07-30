@@ -21,7 +21,7 @@ export const translations = {
     login: "Login",
     signup: "Sign Up",
     welcomeBack: "Welcome Back",
-    joinVyvahaar: "Join Vyvahaar",
+    joinVyvahaar: "Join Vyavahaar",
     enterPhone: "Enter your phone number",
     enterOTP: "Enter OTP",
     verifyOTP: "Verify OTP",
@@ -57,7 +57,7 @@ export const translations = {
     safeTrustedDesc: "A secure platform designed specifically for senior citizens",
 
     // Premium
-    premiumTitle: "Vyvahaar Premium Events",
+    premiumTitle: "Vyavahaar Premium Events",
     premiumDesc: "Subscribe for just ₹99/month to attend all premium events and activities",
     subscribeNow: "Subscribe Now",
     getLifetime: "Get Lifetime",
@@ -121,7 +121,7 @@ export const translations = {
     // Home Page
     welcomeTitle: "हमारे माता-पिता और दादा-दादी के लिए सबसे अच्छा उपहार",
     welcomeDescription:
-      "व्यवहार भारत का पहला नेटवर्किंग प्लेटफॉर्म है जो विशेष रूप से वरिष्ठ नागरिकों के लिए डिज़ाइन किया गया है। हम अपने बुजुर्गों को अकेलेपन के बजाय खुशी और साहचर्य के साथ अपने सुनहरे वर्षों को जीने में मदद करते हैं।",
+      "व्यवहार भारत का पहला नेटवर्किंग प्लेटफॉर्म है जो विशेष रूप से वरिष्ठ नागरिकों के लिए ��िज़ाइन किया गया है। हम अपने बुजुर्गों को अकेलेपन के बजाय खुशी और साहचर्य के साथ अपने सुनहरे वर्षों को जीने में मदद करते हैं।",
     joinToday: "आज ही व्यवहार में शामिल हों",
     learnMore: "और जानें",
     featuresTitle: "आपके लिए डिज़ाइन की गई सुविधाएं",
@@ -203,7 +203,7 @@ export const translations = {
     // Home Page
     welcomeTitle: "ਸਾਡੇ ਮਾਤਾ-ਪਿਤਾ ਅਤੇ ਦਾਦਾ-ਦਾਦੀ ਲਈ ਸਭ ਤੋਂ ਵਧੀਆ ਤੋਹਫਾ",
     welcomeDescription:
-      "ਵਿਵਹਾਰ ਭਾਰਤ ਦਾ ਪਹਿਲਾ ਨੈੱਟਵਰਕਿੰਗ ਪਲੇਟਫਾਰਮ ਹੈ ਜੋ ਵਿਸ਼ੇਸ਼ ਤੌਰ 'ਤੇ ਸੀਨੀਅਰ ਸਿਟੀਜ਼ਨਾਂ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤਾ ਗਿਆ ਹੈ। ਅਸੀਂ ਆਪਣੇ ਬਜ਼ੁਰਗਾਂ ਨੂੰ ਇਕੱਲਤਾ ਦੀ ਬਜਾਏ ਖੁਸ਼ੀ ਅਤੇ ਸਾਥ ਨਾਲ ਆਪਣੇ ਸੁਨਹਿਰੀ ਸਾਲ ਜੀਣ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਾਂ।",
+      "ਵਿਵਹਾਰ ਭਾਰਤ ਦਾ ਪਹਿਲਾ ਨੈੱਟਵਰਕਿੰਗ ਪਲੇਟਫਾਰਮ ਹੈ ਜੋ ਵਿਸ਼ੇਸ਼ ਤੌਰ 'ਤੇ ਸੀਨੀਅਰ ਸਿਟੀਜ਼ਨਾਂ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤਾ ਗਿਆ ਹੈ। ਅਸੀਂ ਆਪਣੇ ਬਜ਼ੁਰਗਾਂ ਨੂੰ ਇਕੱਲਤਾ ਦੀ ਬਜਾਏ ਖੁਸ਼ੀ ਅਤੇ ਸਾਥ ਨਾਲ ਆਪਣੇ ਸੁਨਹਿਰੀ ਸਾਲ ਜੀਣ ਵਿੱਚ ਮਦਦ ਕਰਦੇ ਹਾ��।",
     joinToday: "ਅੱਜ ਹੀ ਵਿਵਹਾਰ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋਵੋ",
     learnMore: "ਹੋਰ ਜਾਣੋ",
     featuresTitle: "ਤੁਹਾਡੇ ਲਈ ਡਿਜ਼ਾਈਨ ਕੀਤੀਆਂ ਸੁਵਿਧਾ��ਾਂ",

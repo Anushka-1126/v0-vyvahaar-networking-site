@@ -74,7 +74,7 @@ export default function LoginPage() {
       setIsLoading(false)
       toast({
         title: "Login Successful",
-        description: `Welcome back to Vyvahaar!`,
+        description: `Welcome back to Vyavahaar!`,
       })
 
       // Store auth data with actual user name from signup
@@ -116,7 +116,7 @@ export default function LoginPage() {
         <Card className="w-full max-w-md">
           <CardHeader className="text-center">
             <div className="flex justify-center mb-4">
-              <Image src="/logo.png" alt="Vyvahaar" width={60} height={60} className="rounded-lg" />
+              <Image src="/logo.png" alt="Vyavahaar" width={60} height={60} className="rounded-lg" />
             </div>
             <CardTitle className="text-2xl font-bold text-orange-600">{t("welcomeBack")}</CardTitle>
             <CardDescription>

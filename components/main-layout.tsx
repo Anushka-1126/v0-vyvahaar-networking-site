@@ -88,9 +88,9 @@ export function MainLayout({ children }: MainLayoutProps) {
         <Sidebar className="border-r border-orange-200 dark:border-orange-800">
           <SidebarHeader className="p-6 border-b border-orange-200 dark:border-orange-800">
             <Link href={user.role === "admin" ? "/admin" : "/"} className="flex items-center gap-3">
-              <Image src="/logo.png" alt="Vyvahaar" width={40} height={40} className="rounded-lg" />
+              <Image src="/logo.png" alt="Vyavahaar" width={40} height={40} className="rounded-lg" />
               <div>
-                <h2 className="text-xl font-bold text-orange-600">Vyvahaar</h2>
+                <h2 className="text-xl font-bold text-orange-600">Vyavahaar</h2>
                 {user.role === "admin" && <p className="text-xs text-orange-500 font-medium">Admin Panel</p>}
               </div>
             </Link>
